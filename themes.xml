@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Use Material3 which is modern and includes all necessary attributes for TextInputLayout -->
+    <style name="Theme.NimmaGuru" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="android:statusBarColor">@color/primary_blue</item>
+
+        <!-- Large Text and Large Buttons for Elderly Accessibility -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.NimmaGuru.HeadlineLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.NimmaGuru.BodyLarge</item>
+        <item name="materialButtonStyle">@style/Widget.NimmaGuru.Button.Large</item>
+    </style>
+
+    <style name="TextAppearance.NimmaGuru.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.NimmaGuru.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.NimmaGuru.Button.Large" parent="Widget.Material3.Button">
+        <item name="android:minHeight">64dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:insetTop">8dp</item>
+        <item name="android:insetBottom">8dp</item>
+    </style>
+
+</resources>

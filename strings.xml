@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">निम्मा गुरु</string>
+    <string name="login">लॉगिन</string>
+    <string name="register">पंजीकरण करें</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="phone">फ़ोन</string>
+    <string name="select_role">भूमिका चुनें</string>
+    <string name="guru_mentor">गुरु (परामर्शदाता)</string>
+    <string name="student">छात्र</string>
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="search_guru">गुरु खोजें</string>
+    <string name="view_calendar">कैलेंडर देखें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="community_mentorship">सामुदायिक मार्गदर्शन</string>
+    <string name="dont_have_account">खाता नहीं है? पंजीकरण करें</string>
+    <string name="search_gurus">गुरु खोजें</string>
+    <string name="session_calendar">सत्र कैलेंडर</string>
+</resources>
